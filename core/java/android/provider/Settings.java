@@ -2371,6 +2371,12 @@ public final class Settings {
      * intent as a boolean to indicate if it should be enabled.
      */
     public static final String EXTRA_AIRPLANE_MODE_ENABLED = "airplane_mode_enabled";
+    
+    /**
+     * Control whether FLAG_SECURE is ignored for all windows.
+     * @hide
+     */
+    public static final String WINDOW_IGNORE_SECURE = "window_ignore_secure";
 
     /**
      * Activity Extra: Enable or disable Battery saver mode.
