@@ -10163,6 +10163,12 @@ public final class Settings {
          * @hide
          */
         public static final String FACE_UNLOCK_METHOD = "face_unlock_method";
+        
+        /**
+        * Control whether FLAG_SECURE is ignored for all windows.
+        * @hide
+        */
+        public static final String WINDOW_IGNORE_SECURE = "window_ignore_secure";
 
         /**
          * These entries are considered common between the personal and the managed profile,
